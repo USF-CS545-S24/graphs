@@ -64,6 +64,9 @@ public class Graph {
      */
     public void dfsMain() {
         boolean visited[]  = new boolean[graph.length];
+        // Discovery and finish times
+        // Discovery: when we visit the vertex
+        // Finish time: when we are "done" with the vertex (no more neighbors to explore)
         int discovery[]  = new int[graph.length];
         int finish[]  = new int[graph.length];
 
